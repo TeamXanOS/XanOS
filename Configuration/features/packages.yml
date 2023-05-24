@@ -1331,4 +1331,14 @@ actions:
   - !file: {path: 'C:\Windows\System32\WSCollect.exe'}
   - !file: {path: 'C:\Windows\System32\wpr.exe'}
   - !file: {path: 'C:\Windows\System32\wsl.exe'}
+  - !file: {path: 'C:\Windows\System32\AppLocker'}
+  - !file: {path: 'C:\Windows\System32\0409}
+  - !file: {path: 'C:\Windows\System32\DisplaySwitch.exe'}
+  - !file: {path: 'C:\Windows\System32\dialer.exe'}
+  - !file: {path: 'C:\Windows\System32\dialserver.dll-'}
+  - !file: {path: 'C:\Windows\System32\WSReset.exe'}
+  - !file: {path: 'C:\Windows\System32\WSReset.exe'}
+  - !file: {path: 'C:\Windows\System32\WSReset.exe'}
+  - !file: {path: 'C:\Windows\System32\WSReset.exe'}
+  - !file: {path: 'C:\Windows\System32\WSReset.exe'}
   - !file: {path: 'C:\Windows\System32\WSReset.exe'}
