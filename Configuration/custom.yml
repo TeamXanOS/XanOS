@@ -1,0 +1,12 @@
+---
+title: Custom
+description: Configuration
+privilege: Admin
+actions: []
+features:
+- features\start.yml
+- features\services.yml
+- features\appx.yml
+- features\components.yml
+- features\packages.yml
+- features\config.yml
