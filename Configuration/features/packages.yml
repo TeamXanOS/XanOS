@@ -1280,10 +1280,6 @@ actions:
   - !file: {path: 'C:\Windows\DigitalLocker'}
   - !file: {path: 'C:\Windows\Downloaded Program Files'}
   - !file: {path: 'C:\Windows\GameBarPresenceWriter'}
-  - !file: {path: 'C:\Windows\System32\Windows.ApplicationModel.Store.dll'}
-  - !file: {path: 'C:\Windows\System32\Windows.ApplicationModel.Store.Preview.DOSettings.dll'}
-  - !file: {path: 'C:\Windows\System32\Windows.ApplicationModel.Store.TestingFramework.dll'}
-  - !file: {path: 'C:\Windows\System32\Windows.ApplicationModel.Wallet.dll'}
   - !taskKill: {name: 'HelpPane'}
   - !file: {path: 'C:\Windows\HelpPane.exe'}
   - !file: {path: 'C:\Windows\winhlp32.exe'}
@@ -1292,7 +1288,47 @@ actions:
   - !file: {path: 'C:\Program Files (x86)\Microsoft'}
   - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk'}
   - !file: {path: 'C:\Program Files\Windows Security'}
-  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools'}
-  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Wordpad.lnk'}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories}
   - !file: {path: 'C:\Windows\System32\msdt.exe'}
-C:\Windows\System32\msdt.exe
+  - !file: {path: 'C:\Windows\System32\'}
+  - !file: {path: 'C:\Windows\System32\msra.exe'}
+  - !file: {path: 'C:\Windows\System32\mspaint.exe'}
+  - !file: {path: 'C:\Windows\System32\msdt.exe'}
+  - !file: {path: 'C:\Windows\System32\mstsc.exe'}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Maintenance'}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools'}
+  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools'}
+  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance'}
+  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories'}
+  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools'}
+  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility'}
+  - !file: {path: 'C:\Windows\System32\Mystify.scr'}
+  - !file: {path: 'C:\Windows\System32\Narrator.exe'}
+  - !file: {path: 'C:\Windows\System32\NarratorControlTemplates.xml'}
+  - !file: {path: 'C:\Windows\System32\osk.exe'}
+  - !file: {path: 'C:\Windows\System32\PhotoScreensaver.scr'}
+  - !file: {path: 'C:\Windows\System32\repair-bde.exe'}
+  - !file: {path: 'C:\Windows\System32\Ribbons.scr'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthSystray.exe'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthHost.exe'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthAgent.dll'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthProxyStub.dll'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthService.exe'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthSSO.dll'}
+  - !file: {path: 'C:\Windows\System32\SecurityHealthSystray.exe'}
+  - !file: {path: 'C:\Windows\System32\sethc.exe'}
+  - !file: {path: 'C:\Windows\System32\shrpubw.exe'}
+  - !file: {path: 'C:\Windows\System32\ssText3d.scr'}
+  - !file: {path: 'C:\Windows\System32\WerFaultSecure.exe'}
+  - !file: {path: 'C:\Windows\System32\wermgr.exe'}
+  - !file: {path: 'C:\Windows\System32\WerFault.exe'}
+  - !file: {path: 'C:\Windows\System32\wersvc.dll'}
+  - !file: {path: 'C:\Windows\System32\werui.dll'}
+  - !file: {path: 'C:\Windows\System32\WindowsSecurityIcon.png'}
+  - !file: {path: 'C:\Windows\System32\wksprt.exe'}
+  - !file: {path: 'C:\Windows\System32\wkspbroker.exe'}
+  - !file: {path: 'C:\Windows\System32\SystemPropertiesRemote.exe'}
+  - !file: {path: 'C:\Windows\System32\WSCollect.exe'}
+  - !file: {path: 'C:\Windows\System32\wpr.exe'}
+  - !file: {path: 'C:\Windows\System32\wsl.exe'}
+  - !file: {path: 'C:\Windows\System32\WSReset.exe'}
