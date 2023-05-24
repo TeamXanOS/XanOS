@@ -1,4 +1,4 @@
-# XanOS: Atlas, but even more debloated.
+# [XanOS](https://www.howtopronounce.com/xanos): Atlas, but even more debloated.
 
 **Have you just look inside the [Atlas repo](https://github.com/Atlas-OS/Atlas/)..?**
 It is full of placebo, bad tweaks.

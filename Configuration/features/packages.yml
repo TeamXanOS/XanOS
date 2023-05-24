@@ -1290,4 +1290,9 @@ actions:
   - !file: {path: 'C:\Windows\write.exe'}
   - !file: {path: 'C:\Windows\hh.exe'}
   - !file: {path: 'C:\Program Files (x86)\Microsoft'}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk'}
   - !file: {path: 'C:\Program Files\Windows Security'}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools'}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Wordpad.lnk'}
+  - !file: {path: 'C:\Windows\System32\msdt.exe'}
+C:\Windows\System32\msdt.exe

@@ -14,34 +14,9 @@ actions:
 
     # Set information about the currently used system
   - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion'
-    value: 'EditionSubManufacturer'
-    data: 'Xan Team'
-    type: REG_SZ
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion'
-    value: 'EditionSubstring'
-    data: 'XanOS'
-    type: REG_SZ
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion'
-    value: 'EditionSubVersion'
-    data: 'XanOS'
-    type: REG_SZ
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation'
-    value: 'Manufacturer'
-    data: 'Xan Team'
-    type: REG_SZ
-  - !registryValue:
     path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation'
     value: 'Model'
     data: 'XanOS 22H2'
-    type: REG_SZ
-  - !registryValue: 
-    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation'
-    value: 'SupportURL'
-    data: 'https://github.com/TeamXanOS/XanOS'
     type: REG_SZ
 
     # Change NTP server from Windows' server to pool.ntp.org
@@ -2336,32 +2311,6 @@ actions:
   - !powerShell:
     command: '$o = new-object -com shell.application; $o.Namespace("""$env:userprofile\Videos""").Self.InvokeVerb("""pintohome"""); $o.Namespace("""$env:userprofile\Music""").Self.InvokeVerb("""pintohome""")'
 
-    # Enable legacy photo viewer
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.tif', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.tiff', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.bmp', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.dib', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.gif', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.jfif', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.jpe', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.jpeg', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.jpg', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.jxr', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations', value: '.png', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-
-    # Set legacy photo viewer as default
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.tif', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.tiff', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.bmp', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.dib', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.gif', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.jfif', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.jpe', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.jpeg', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.jpg', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.jxr', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-  - !registryValue: {path: 'HKCU\SOFTWARE\Classes\.png', value: '', data: 'PhotoViewer.FileAssoc.Tiff', type: REG_SZ}
-
     # Remove Internet Explorer SVG association
   - !registryKey: {path: 'HKCR\svgfile'}
 
@@ -2482,7 +2431,7 @@ actions:
   - !registryValue:
     path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons'
     value: '29'
-    data: 'C:\Windows\Web\etc\Blank.ico,0'
+    data: 'C:\Windows\xanos\Blank.ico,0'
     type: REG_SZ
 
     # Remove 'Edit with Paint 3D' from context menu
@@ -2607,16 +2556,6 @@ actions:
     data: ''
     type: REG_SZ
   - !registryValue:
-    path: 'HKLM\SOFTWARE\Classes\.ps1\ShellNew'
-    value: 'NullFile'
-    data: ''
-    type: REG_SZ
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Classes\.ps1\ShellNew'
-    value: 'ItemName'
-    data: 'New file'
-    type: REG_EXPAND_SZ
-  - !registryValue:
     path: 'HKLM\SOFTWARE\Classes\.reg\ShellNew'
     value: 'NullFile'
     data: ''
@@ -2692,13 +2631,10 @@ actions:
   - !writeStatus: {status: 'Changing boot manager options'}
     # https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/bcdedit
 
-    # Set dual boot menu description to XanOS
-  - !run: {exe: 'bcdedit', args: '/set description "XanOS"'}
-
     # Lowering dual boot choice time
     # This does not affect single OS boot time
     # https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/--timeout#parameters
-  - !run: {exe: 'bcdedit', args: '/timeout 10'}
+  - !run: {exe: 'bcdedit', args: '/timeout 5'}
 
     # Setting to "no" provides worse results, delete the value instead.
     # This is here as a safeguard in case of user error
