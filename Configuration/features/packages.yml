@@ -1289,4 +1289,5 @@ actions:
   - !file: {path: 'C:\Windows\winhlp32.exe'}
   - !file: {path: 'C:\Windows\write.exe'}
   - !file: {path: 'C:\Windows\hh.exe'}
-
+  - !file: {path: 'C:\Program Files (x86)\Microsoft'}
+  - !file: {path: 'C:\Program Files\Windows Security'}
