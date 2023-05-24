@@ -104,6 +104,13 @@ actions:
   - !appx: {name: '*Microsoft.ZuneMusic*', type: family}
   - !appx: {name: '*Microsoft.ZuneVideo*', type: family}
   - !appx: {name: '*microsoft.windowscommunicationsapps*', type: family}
+  - !appx: {name: '*Microsoft.StorePurchaseApp*', type: family}
+  - !appx: {name: '*Microsoft.WindowsStore*', type: family}
+  - !appx: {name: '*Microsoft.XboxGameCallableUI*', type: family}
+  - !appx: {name: '*Microsoft.XboxGameOverlay*', type: family}
+  - !appx: {name: '*Microsoft.XboxGamingOverlay*', type: family}
+  - !appx: {name: '*Microsoft.XboxIdentityProvider*', type: family}
+  - !appx: {name: '*Microsoft.XboxSpeechToTextOverlay*', type: family}
 
 
   # Necessary to refresh start menu entries etc.
