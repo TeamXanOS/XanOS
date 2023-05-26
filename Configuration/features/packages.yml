@@ -1396,3 +1396,19 @@ actions:
   - !file: {path: 'C:\Windows\SysWOW64\RemotePosWorker.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\remotesp.tsp'}
   - !file: {path: 'C:\Windows\SysWOW64\sdchange.exe'}
+  - !file: {path: 'C:\Windows\Resources'}
+  - !file: {path: 'C:\Windows\diagnostics'}
+  - !file: {path: 'C:\Windows\AppReadiness'}
+  - !file: {path: 'C:\Windows\Media'}
+  - !file: {path: 'C:\Windows\Panther'}
+  - !file: {path: 'C:\Windows\Performance'}
+  - !file: {path: 'C:\Windows\PLA'}
+  - !file: {path: 'C:\Windows\Speech_OneCore'}
+  - !file: {path: 'C:\Windows\Speech'}
+  - !file: {path: 'C:\Windows\LiveKernelReports'}
+  - !file: {path: 'C:\Windows\diagnostics'}
+  - !file: {path: 'C:\Windows\LanguageOverlayCache'}
+  - !file: {path: 'C:\Windows\debug'}
+  - !file: {path: 'C:\Windows\Containers'}
+  - !file: {path: 'C:\Windows\CbsTemp'}
+  - !file: {path: 'C:\Windows\Logs'}
