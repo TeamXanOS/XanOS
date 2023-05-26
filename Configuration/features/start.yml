@@ -15,6 +15,9 @@ actions:
     exeDir: true
     command: 'DISM /Online /Cleanup-Image /StartComponentCleanup'
     weight: 30
+    
+  - !writeStatus: {status: "Removing Windows Update files"}
+  - !file: {path: 'C:\Windows\SoftwareDistribution'}
 
   - !writeStatus: {status: 'Configuring Windows Update'}
   - !registryValue:
