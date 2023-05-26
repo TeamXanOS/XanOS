@@ -2,9 +2,6 @@
 @echo off
 pushd "%CD%"
 CD /D "%~dp0"
-title [0 percent] Defender Remover , version 11
-echo Please don't move nor click on this page.
-echo Doing so may break this process
 timeout /t 8 /nobreak
 :: Removing Windows Security Application
 rmdir /s /q "C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy"
@@ -50,7 +47,6 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servi
 echo The package cannot be found.
 )
 
-title [25 percent] Defender Remover , version 11
 for /f "tokens=8 delims=\" %%i in ('reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing\Packages" ^| findstr "Windows-Defender-Group-Policy-Package" ^| findstr "~~"') do (set "defender_package=%%i")
 if defined defender_package (
 echo Removing %defender_package%...
@@ -189,7 +185,6 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servi
 ) else (
 echo The package cannot be found.
 )
-title [60 percent] Defender Remover , version 11
 taskkill /f /im smartscreen.exe
 taskkill /f /im SecurityHealthSystray.exe
 taskkill /f /im SecurityHealthHost.exe
