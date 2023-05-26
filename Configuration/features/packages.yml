@@ -1263,6 +1263,8 @@ actions:
   #  - !systemPackage: {name: 'Microsoft-Windows-WwanUI', arch: amd64, language: 'neutral'}
 
   ## Remove useless files and folders
+  - !writeStatus: {status: 'Removing useless files'}
+    
   - !file: {path: 'C:\PerfLogs'}
   - !file: {path: 'C:\Windows\System32\Tasks\Microsoft\Windows\Feedback'}
   - !file: {path: 'C:\Windows\System32\MRT.exe'}
