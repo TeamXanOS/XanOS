@@ -1290,7 +1290,7 @@ actions:
   - !file: {path: 'C:\Program Files (x86)\Microsoft'}
   - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk'}
   - !file: {path: 'C:\Program Files\Windows Security'}
-  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories}
+  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories'}
   - !file: {path: 'C:\Windows\System32\msdt.exe'}
   - !file: {path: 'C:\Windows\System32\msra.exe'}
   - !file: {path: 'C:\Windows\System32\mspaint.exe'}
@@ -1332,7 +1332,7 @@ actions:
   - !file: {path: 'C:\Windows\System32\wpr.exe'}
   - !file: {path: 'C:\Windows\System32\wsl.exe'}
   - !file: {path: 'C:\Windows\System32\AppLocker'}
-  - !file: {path: 'C:\Windows\System32\0409}
+  - !file: {path: 'C:\Windows\System32\0409'}
   - !file: {path: 'C:\Windows\System32\DisplaySwitch.exe'}
   - !file: {path: 'C:\Windows\System32\dialer.exe'}
   - !file: {path: 'C:\Windows\System32\dialserver.dll'}
@@ -1381,7 +1381,7 @@ actions:
   - !file: {path: 'C:\Windows\SysWOW64\wksprt.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\SystemPropertiesRemote.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\AppLocker'}
-  - !file: {path: 'C:\Windows\SysWOW64\0409}
+  - !file: {path: 'C:\Windows\SysWOW64\0409'}
   - !file: {path: 'C:\Windows\SysWOW64\dialer.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\BitLockerCsp.dll'}
   - !file: {path: 'C:\Windows\SysWOW64\calc.exe'}
