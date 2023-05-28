@@ -8,11 +8,11 @@ actions:
   
   ## Double hashtags are used to differentiate between actual comments and commented code
   
-  ## The overall goal here is to strip as least as possible for compatibility reasons, the only things being stripped should be *true* bloat and somehow harmful to the user  
+  ## The overall goal here is to strip as least as possible for compatibility reasons, the only things being stripped should be true bloatware and somehow harmful to the user  
 
   - !writeStatus: {status: 'Removing system packages'}
 
-  ## Unorganised AppX packages
+  ## Unorganized AppX packages
   # - !systemPackage: {name: 'Microsoft-Windows-HEIF-Image-Codec', arch: amd64, language: 'neutral'}
   # - !systemPackage: {name: 'Microsoft-Windows-HEIF-Image-Codec', arch: wow64, language: 'neutral'}
   # - !systemPackage: {name: 'Microsoft-Windows-AddSuggestedFoldersToLibraryDialog.AppxMain', arch: amd64, language: 'neutral'}
@@ -80,26 +80,26 @@ actions:
   - !systemPackage: {name: 'Microsoft-Windows-MicrosoftEdgeDevToolsClient.AppxSetup', arch: amd64, language: 'neutral'}
   
   ## Parental Controls
-  - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-FamilySafety-RefreshTask', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MigrationCleanup', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MonitorService-Desktop', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-OTS', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Core', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Desktop', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WpcProxyStubs', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-FamilySafety-RefreshTask', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MigrationCleanup', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MonitorService-Desktop', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-OTS', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Core', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Desktop', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WpcProxyStubs', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-ParentalControls.AppxMain', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-ParentalControls.AppxSetup', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsMonitor', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsMonitor', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: wow64, language: 'neutral'}
   
   ## Lock App
   - !systemPackage: {name: 'Microsoft-Windows-LockApp.AppxMain', arch: amd64, language: 'neutral'}
@@ -153,13 +153,13 @@ actions:
   
   ## AllJoyn Router
   ## Not stripped just in case for IoT apps
-  - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Api', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Api', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Capabilities', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Router', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Runtime', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Runtime', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Networking-MPSSVC-Rules-AllJoyn', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Api', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Api', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Capabilities', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Router', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Runtime', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-AllJoyn-Runtime', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Networking-MPSSVC-Rules-AllJoyn', arch: amd64, language: 'neutral'}
   
   ## Content Delivery Manager installs common bloatware from Store like Netflix, Disney+, etc...
   - !systemPackage: {name: 'Microsoft-Windows-ContentDeliveryManager-Capabilities', arch: amd64, language: 'neutral'}
@@ -692,46 +692,46 @@ actions:
   # - !systemPackage: {name: 'microsoft-windows-RemoteFX-clientVM-RemoteFXWDDMDriver-WOW64-d', arch: amd64, language: 'neutral'}
   # - !systemPackage: {name: 'microsoft-windows-RemoteFX-remoteclient-files-regkeys-component', arch: amd64, language: 'neutral'}
   ## Breaks Hyper-V
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-deployment-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-deployment', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-synth3d-deployment-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-synth3d-deployment', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-UMTS-Events-component', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-UMTS-files-regkeys-component', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'microsoft-windows-RemoteFX-UMTS-perfcounters-component', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-RemoteFX-VM-Setup-merged-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'Microsoft-Windows-RemoteFX-VM-Setup-merged-Deployment', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-Deployment', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-WOW64-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-WOW64-Deployment', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'rdlsbuscbs.inf-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'wsynth3dvsp.inf-LanguagePack', arch: amd64, language: 'en-US'}
-  - !systemPackage: {name: 'Microsoft-Windows-RetailDemo-RetailInfo', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-RetailDemo-Service', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Shell-RetailDemo-DesktopTaskFactory', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-Office-Protectors', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-Office-Protectors', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-v1-API', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-v2-Core', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-v2-Core', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox-ISV', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox-ISV', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox', arch: x86, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox-ISV', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox-ISV', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Magnify', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Magnify', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-Securitycenter-Adm', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Broker', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Broker', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-ControlPanel', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-ControlPanel', arch: wow64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Core', arch: amd64, language: 'neutral'}
-  - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Core', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-deployment-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-deployment', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-synth3d-deployment-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-setup-update-oob-synth3d-deployment', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-UMTS-Events-component', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-UMTS-files-regkeys-component', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'microsoft-windows-RemoteFX-UMTS-perfcounters-component', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-RemoteFX-VM-Setup-merged-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'Microsoft-Windows-RemoteFX-VM-Setup-merged-Deployment', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-Deployment', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-WOW64-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-WOW64-Deployment', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'rdlsbuscbs.inf-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'wsynth3dvsp.inf-LanguagePack', arch: amd64, language: 'en-US'}
+  # - !systemPackage: {name: 'Microsoft-Windows-RetailDemo-RetailInfo', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-RetailDemo-Service', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Shell-RetailDemo-DesktopTaskFactory', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-Office-Protectors', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-Office-Protectors', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-v1-API', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-v2-Core', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Rights-Management-Client-v2-Core', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox-ISV', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox-ISV', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-ServerBox', arch: x86, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox-ISV', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox-ISV', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Security-Processor-Native-Whitebox', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Magnify', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Magnify', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-Securitycenter-Adm', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Broker', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Broker', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-ControlPanel', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-ControlPanel', arch: wow64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Core', arch: amd64, language: 'neutral'}
+  # - !systemPackage: {name: 'Microsoft-Windows-SecurityCenter-Core', arch: wow64, language: 'neutral'}
   ## SIH Client
   # - !systemPackage: {name: 'ServiceInitiatedHealing-Client', arch: amd64, language: 'neutral'}
   # - !systemPackage: {name: 'Microsoft-Windows-ServicesSnapIn', arch: wow64, language: 'neutral'}
@@ -1288,7 +1288,6 @@ actions:
   - !file: {path: 'C:\Windows\write.exe'}
   - !file: {path: 'C:\Windows\hh.exe'}
   - !file: {path: 'C:\Program Files (x86)\Microsoft'}
-  - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk'}
   - !file: {path: 'C:\Program Files\Windows Security'}
   - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories'}
   - !file: {path: 'C:\Windows\System32\msdt.exe'}
@@ -1322,9 +1321,6 @@ actions:
   - !file: {path: 'C:\Windows\System32\WerFaultSecure.exe'}
   - !file: {path: 'C:\Windows\System32\wermgr.exe'}
   - !file: {path: 'C:\Windows\System32\WerFault.exe'}
-  - !file: {path: 'C:\Windows\System32\wersvc.dll'}
-  - !file: {path: 'C:\Windows\System32\werui.dll'}
-  - !file: {path: 'C:\Windows\System32\WindowsSecurityIcon.png'}
   - !file: {path: 'C:\Windows\System32\wksprt.exe'}
   - !file: {path: 'C:\Windows\System32\wkspbroker.exe'}
   - !file: {path: 'C:\Windows\System32\SystemPropertiesRemote.exe'}
@@ -1336,15 +1332,11 @@ actions:
   - !file: {path: 'C:\Windows\System32\DisplaySwitch.exe'}
   - !file: {path: 'C:\Windows\System32\dialer.exe'}
   - !file: {path: 'C:\Windows\System32\dialserver.dll'}
-  - !file: {path: 'C:\Windows\System32\BitLockerWizardElev.exe'}
-  - !file: {path: 'C:\Windows\System32\BitLockerDeviceEncryption.exe'}
-  - !file: {path: 'C:\Windows\System32\BitLockerCsp.dll'}
   - !file: {path: 'C:\Windows\System32\Bubbles.scr'}
   - !file: {path: 'C:\Windows\System32\calc.exe'}
   - !file: {path: 'C:\Windows\System32\cliconfg.exe'}
   - !file: {path: 'C:\Windows\System32\cliconfg.rll'}
   - !file: {path: 'C:\Windows\System32\credwiz.exe'}
-  - !file: {path: 'C:\Windows\System32\credui.dll'}
   - !file: {path: 'C:\Windows\System32\EaseOfAccessDialog.exe'}
   - !file: {path: 'C:\Windows\System32\eudcedit.exe'}
   - !file: {path: 'C:\Windows\System32\GamePanel.exe'}
@@ -1356,17 +1348,13 @@ actions:
   - !file: {path: 'C:\Windows\System32\MusNotification.exe'}
   - !file: {path: 'C:\Windows\System32\nslookup.exe'}
   - !file: {path: 'C:\Windows\System32\recdisc.exe'}
-  - !file: {path: 'C:\Windows\System32\RecoveryDrive.exe'}
-  - !file: {path: 'C:\Windows\System32\recovery.dll'}
   - !file: {path: 'C:\Windows\System32\RelPost.exe'}
   - !file: {path: 'C:\Windows\System32\RemotePosWorker.exe'}
   - !file: {path: 'C:\Windows\System32\remotesp.tsp'}
   - !file: {path: 'C:\Windows\System32\sdclt.exe'}
   - !file: {path: 'C:\Windows\System32\sdchange.exe'}
-  - !file: {path: 'C:\Windows\System32\SlideToShutDown.exe'}
   - !file: {path: 'C:\Windows\System32\SnippingTool.exe'}
   - !file: {path: 'C:\Windows\System32\TabletPC.cpl'}
-  - !file: {path: 'C:\Windows\System32\TabSvc.dll'}
   - !file: {path: 'C:\Windows\SysWOW64\msdt.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\msra.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\mspaint.exe'}
@@ -1376,14 +1364,11 @@ actions:
   - !file: {path: 'C:\Windows\SysWOW64\WerFaultSecure.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\wermgr.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\WerFault.exe'}
-  - !file: {path: 'C:\Windows\SysWOW64\wersvc.dll'}
-  - !file: {path: 'C:\Windows\SysWOW64\werui.dll'}
   - !file: {path: 'C:\Windows\SysWOW64\wksprt.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\SystemPropertiesRemote.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\AppLocker'}
   - !file: {path: 'C:\Windows\SysWOW64\0409'}
   - !file: {path: 'C:\Windows\SysWOW64\dialer.exe'}
-  - !file: {path: 'C:\Windows\SysWOW64\BitLockerCsp.dll'}
   - !file: {path: 'C:\Windows\SysWOW64\calc.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\cliconfg.exe'}
   - !file: {path: 'C:\Windows\SysWOW64\cliconfg.rll'}
