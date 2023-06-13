@@ -35,4 +35,4 @@ Ameliorated is saying that XanOS is unverified, suspicious...
 
 ![Unverified Playbook](https://raw.githubusercontent.com/TeamXanOS/Discussions/main/pictures/unverified.jpg)
 
-Reason being to get it verified, @XanderFromFortnite will have to pay $10 each month, and @XanderFromFortnite is to lazy 2 pay for that, so it's unverified.
+Reason being to get it verified, @XanderFromFortnite will have to pay $10 each month, and @XanderFromFortnite is lazy 2 pay for that, so it's unverified.
