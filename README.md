@@ -14,7 +14,7 @@ Today is the age where we stop use **.iso** files to install a modified windows 
 
 We use [AME Wizard](https://ameliorated.io/) to install XanOS on **your** computer
 
-*NOTE: you will need to wipe/factory reset windows again to avoid errors in AME Wizard*
+*NOTE: you will need to wipe/factory reset windows to avoid errors in AME Wizard*
 
 All you have to do is just follow the steps showed in AME Wizard and you're done.
 
