@@ -12,13 +12,6 @@ actions:
     data: '1'
     type: REG_DWORD
 
-    # Set information about the currently used system
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation'
-    value: 'Model'
-    data: 'XanOS 22H2'
-    type: REG_SZ
-
     # Change NTP server from Windows' server to pool.ntp.org
   - !run: {exe: 'w32tm', args: '/config /syncfromflags:manual /manualpeerlist:"stratum1.net"'}
 

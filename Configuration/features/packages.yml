@@ -31,8 +31,8 @@ actions:
   # - !systemPackage: {name: 'Microsoft-Windows-XGpuEjectDialog.AppxSetup', arch: amd64, language: 'neutral'}
   # - !systemPackage: {name: 'Microsoft-Windows-NcsiUwpApp.AppxMain', arch: amd64, language: 'neutral'}
   # - !systemPackage: {name: 'Microsoft-Windows-NcsiUwpApp.AppxSetup', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-NarratorQuickStart.AppxMain', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-NarratorQuickStart.AppxSetup', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-NarratorQuickStart.AppxMain', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-NarratorQuickStart.AppxSetup', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-OOBENetworkCaptivePortal.AppxMain', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-OOBENetworkCaptivePortal.AppxSetup', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-DesktopFileExplorer-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
@@ -80,26 +80,26 @@ actions:
   - !systemPackage: {name: 'Microsoft-Windows-MicrosoftEdgeDevToolsClient.AppxSetup', arch: amd64, language: 'neutral'}
   
   ## Parental Controls
-  # - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-FamilySafety-RefreshTask', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MigrationCleanup', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MonitorService-Desktop', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-OTS', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Core', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Desktop', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WpcProxyStubs', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-AppModel-FamilySafety-Extension', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-FamilySafety-RefreshTask', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MigrationCleanup', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-MonitorService-Desktop', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-OTS', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Core', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-Settings-Desktop', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WebFilter', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControls-WpcProxyStubs', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-ParentalControls.AppxMain', arch: amd64, language: 'neutral'}
   - !systemPackage: {name: 'Microsoft-Windows-ParentalControls.AppxSetup', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsMonitor', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsMonitor', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-GameRatingsSystems', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsRatingSystem-WEB', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-ParentalControlsSettings', arch: wow64, language: 'neutral'}
   
   ## Lock App
   - !systemPackage: {name: 'Microsoft-Windows-LockApp.AppxMain', arch: amd64, language: 'neutral'}
@@ -175,32 +175,32 @@ actions:
   - !systemPackage: {name: 'Microsoft-Windows-SystemSettings-SettingsHandlers-ContentDeliveryManager', arch: amd64, language: 'neutral'}
   
   ## Speech Recognition, needed for voice activation
-  # - !systemPackage: {name: 'Microsoft-OneCore-DictationManager-Component', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-OneCore-SpeechService-Component', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-OneCore-SpeechService-Component', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-OneCore-SystemSettings-SettingsHandlers-SpeechPrivacy', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-IEKillBits', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-IEKillBits', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-Pal-Desktop', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-Pal-Desktop', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-Shell', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-Shell', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience-Common', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience-Common', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-Windows', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-Speech-Windows', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechCommon-OneCore', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechCommonNoIA64', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechCommonNoIA64', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechDiagnostic', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine-OneCore', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine-OneCore', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine', arch: wow64, language: 'neutral'}
-  # - !systemPackage: {name: 'Microsoft-Windows-VoiceActivation-HW', arch: amd64, language: 'neutral'}
-  # - !systemPackage: {name: 'Windows-Media-Speech-WinRT', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-OneCore-DictationManager-Component', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-OneCore-SpeechService-Component', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-OneCore-SpeechService-Component', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-OneCore-SystemSettings-SettingsHandlers-SpeechPrivacy', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-IEKillBits', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-IEKillBits', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-Pal-Desktop', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-Pal-Desktop', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-Shell', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-Shell', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience-Common', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience-Common', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-UserExperience', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-Windows', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-Speech-Windows', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechCommon-OneCore', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechCommonNoIA64', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechCommonNoIA64', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechDiagnostic', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine-OneCore', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine-OneCore', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-SpeechEngine', arch: wow64, language: 'neutral'}
+  - !systemPackage: {name: 'Microsoft-Windows-VoiceActivation-HW', arch: amd64, language: 'neutral'}
+  - !systemPackage: {name: 'Windows-Media-Speech-WinRT', arch: wow64, language: 'neutral'}
   
   # OneDrive (Does not remove OneDrive on its own. See ONED.cmd)
   - !systemPackage: {name: 'Microsoft-Windows-OneDrive-Setup-Deployment-LanguagePack', arch: amd64, language: 'en-US'}
@@ -1296,11 +1296,6 @@ actions:
   - !file: {path: 'C:\Windows\System32\mstsc.exe'}
   - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Maintenance'}
   - !file: {path: 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools'}
-  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools'}
-  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance'}
-  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories'}
-  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools'}
-  - !file: {path: 'C:\Users\help\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility'}
   - !file: {path: 'C:\Windows\System32\Mystify.scr'}
   - !file: {path: 'C:\Windows\System32\Narrator.exe'}
   - !file: {path: 'C:\Windows\System32\NarratorControlTemplates.xml'}

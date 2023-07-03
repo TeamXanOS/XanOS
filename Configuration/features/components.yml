@@ -9,7 +9,7 @@ actions:
 
     # ---------- Windows Defender
   - !writeStatus: {status: 'Removing Windows Defender'}
-  - !run: {exeDir: true, exe: 'DEFENDEREMOVE.cmd', weight: 20}  
+  - !run: {exeDir: true, exe: 'DEFENDEREMOVE.bat', weight: 20}  
 
     # ---------- Microsoft Edge
   - !writeStatus: {status: 'Removing Microsoft Edge'}
@@ -95,8 +95,6 @@ actions:
   - !registryValue: {path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\ApplicationAssociationToasts', value: 'MSEdgeHTM_microsoft-edge', operation: delete}
   - !registryKey: {path: 'HKCU\SOFTWARE\Microsoft\Active Setup\Installed Components\{9459C573-B17A-45AE-9F64-1857B5D58CEE}'}
   - !registryKey: {path: 'HKCU\SOFTWARE\Microsoft\Edge'}
-
-    # WebView
   - !registryKey: {path: 'HKCU\SOFTWARE\Microsoft\EdgeWebView'}
 
   - !registryValue:
