@@ -1,4 +1,0 @@
-was made by jbara2002 on Github
-repo: https://github.com/jbara2002/windows-defender-remover
-
-This script was edited to make sure it will work with the tweaks of XanOS
