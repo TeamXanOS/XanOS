@@ -10,7 +10,7 @@ It is full of placebo, bad tweaks.
 And when you installed Atlas, it's even worst because it didn't remove all of the files that it was suppose to remove, that's how I created **XanOS**, pretty much AtlasOS 2.0.
 
 ## How to install?
-Today is the age where we stop use **.iso** files to install a modified windows version/build
+Today is the age where we stop use **.iso** to install a modified windows version/build
 
 We use [AME Wizard](https://ameliorated.io/) to install XanOS on **your** computer
 
