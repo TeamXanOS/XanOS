@@ -21,4 +21,4 @@ reg delete "HKU\!userSID!\SOFTWARE\Microsoft\IdentityCRL" /f
 for /f "usebackq delims=" %%a in (`reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers" /s /f "!userSID!" ^| findstr /c:"!userSID!"`) do reg delete "%%a" /f
 
 net user "%~1" /fullname:""
-net user "%~1" xander
+net user "%~1" ""

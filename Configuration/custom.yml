@@ -5,6 +5,10 @@ privilege: Admin
 actions: []
 features:
 - features\start.yml
+- features\winupdate.yml
+- features\chocolatey.yml
+- features\nomacs.yml
+- features\sevenzip.yml
 - features\services.yml
 - features\appx.yml
 - features\components.yml

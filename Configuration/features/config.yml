@@ -4,7 +4,6 @@ description: Applies the XanOS configuration
 privilege: TrustedInstaller
 actions:
   - !writeStatus: {status: 'Configuring system'}
-
     # Prevent privacy OOBE when creating a new user
   - !registryValue:
     path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\OOBE'
@@ -13,9 +12,9 @@ actions:
     type: REG_DWORD
 
     # Change NTP server from Windows' server to pool.ntp.org
-  - !run: {exe: 'w32tm', args: '/config /syncfromflags:manual /manualpeerlist:"stratum1.net"'}
-
-    # Resync time to pool.ntp.org
+  - !run: {exe: 'w32tm', args: '/config /syncfromflags:manual /manualpeerlist:"ntp1.stratum1.ru ntp2.stratum1.ru ntp1.stratum1.ru ntp1.stratum1.ru ntp4.stratum1.ru ntp4.stratum1.ru"'}
+	
+    # Resync time to ntp.stratum1.ru
   - !run: {exe: 'net', args: 'start w32time'}
   - !run: {exe: 'w32tm', args: '/config /update'}
   - !run: {exe: 'w32tm', args: '/resync'}

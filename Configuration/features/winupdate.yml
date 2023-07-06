@@ -1,0 +1,159 @@
+---
+title: Windows Update
+description: Configures Windows Update
+privilege: TrustedInstaller
+actions:
+  - !writeStatus: {status: 'Configuring Windows Update'}
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'ExcludeWUDriversInQualityUpdate'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'DisableWindowsUpdateAccess'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'AllowAutoWindowsUpdateDownloadOverMeteredNetwork'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'DisableDualScan'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'AUPowerManagement'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'SetAutoRestartNotificationDisable'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'ManagePreviewBuilds'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'ManagePreviewBuildsPolicyValue'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'DeferFeatureUpdates'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'BranchReadinessLevel'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'DeferFeatureUpdatesPeriodInDays'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'DeferQualityUpdates'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'DeferQualityUpdatesPeriodInDays'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate'
+    value: 'SetDisableUXWUAccess'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU'
+    value: 'AUOptions'
+    data: '2'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU'
+    value: 'NoAutoUpdate'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU'
+    value: 'NoAUAsDefaultShutdownOption'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU'
+    value: 'NoAUShutdownOption'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU'
+    value: 'NoAutoRebootWithLoggedOnUsers'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU'
+    value: 'EnableFeaturedSoftware'
+    data: "0"
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings'
+    value: 'RestartNotificationsAllowed2'
+    data: "0"
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings'
+    value: 'HideMCTLink'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching'
+    value: 'SearchOrderConfig'
+    data: "0"
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Metadata'
+    value: 'PreventDeviceMetadataFromNetwork'
+    data: '1'
+    type: REG_DWORD
+
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate'
+    value: 'SusClientId'
+    data: '00000000-0000-0000-0000-000000000000'
+    type: REG_SZ
+
+  - !file:
+    path: 'C:\Windows\SoftwareDistribution'
+    weight: 20
